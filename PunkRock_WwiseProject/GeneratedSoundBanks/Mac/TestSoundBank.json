@@ -1,0 +1,114 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1831431028",
+    "Type": "User",
+    "GUID": "{F33FA177-2CFA-40A2-9B45-0A4740312C93}",
+    "Language": "SFX",
+    "Hash": "{247DD03D-8866-FE37-0330-0B1799452914}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestSoundBank",
+    "ShortName": "TestSoundBank",
+    "Path": "TestSoundBank.bnk",
+    "Media": [
+     {
+      "Id": "18066612",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "The Rush.wav",
+      "CachePath": "51/{518B466F-4D9E-CB75-25A7-AECB8AD168D0}.wem"
+     },
+     {
+      "Id": "644445444",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metronomedown.wav",
+      "CachePath": "BA/{BAE39670-3F5A-3599-D18E-37FDF70C38C4}.wem"
+     },
+     {
+      "Id": "705479134",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metronomeup.wav",
+      "CachePath": "41/{4109D4F0-8C20-99D6-5B73-F55164FC297A}.wem"
+     },
+     {
+      "Id": "1001026619",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drum_kick.wav",
+      "CachePath": "74/{74FD7676-DA78-275A-C4FD-9750207C951A}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "295865885",
+       "Name": "BGM_Time_Stretch",
+       "ObjectPath": "\\Effects\\Default Work Unit\\BGM_Time_Stretch",
+       "GUID": "{1361FFAF-C4CB-4C36-88D9-A7B4BC0A6A74}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "163561846",
+      "Name": "Play_BGM_TheRush",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_BGM_TheRush",
+      "GUID": "{C55170BD-4AE4-48F1-994E-A1B36BA7E716}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "18066612"
+       }
+      ]
+     },
+     {
+      "Id": "122105866",
+      "Name": "Play_Metronome",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Metronome",
+      "GUID": "{FE12C5FC-4CE0-40FF-97C0-42176D1D9736}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "644445444"
+       },
+       {
+        "Id": "705479134"
+       },
+       {
+        "Id": "1001026619"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "295865885"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1897326479",
+      "Name": "PlaybackSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlaybackSpeed",
+      "GUID": "{CB495817-7427-4AFD-8C71-455E7EB8074E}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3D358B49-7ED5-A425-B5CD-1C28E810B781}"
+ }
+}

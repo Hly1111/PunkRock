@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{33E16756-F64B-418B-86BE-6ADADE9A6A54}" SchemaVersion="123">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{33E16756-F64B-418B-86BE-6ADADE9A6A54}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="BGM_Time_Stretch" ID="{1361FFAF-C4CB-4C36-88D9-A7B4BC0A6A74}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+					<PropertyList>
+						<Property Name="QualityEnable" Type="int16" Value="1"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	122105866	Play_Metronome			\Default Work Unit\Play_Metronome	
+	163561846	Play_BGM_TheRush			\Default Work Unit\Play_BGM_TheRush	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1897326479	PlaybackSpeed			\Default Work Unit\PlaybackSpeed	
+
+Effect plug-ins	ID	Name	Type				Notes
+	295865885	BGM_Time_Stretch	Wwise Time Stretch			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	18066612	The Rush	D:\Unreal\Files\PunkRock\PunkRock_WwiseProject\.cache\51\{518B466F-4D9E-CB75-25A7-AECB8AD168D0}.wem		\Interactive Music Hierarchy\Default Work Unit\TheRush_loop\The Rush\The Rush		81727584
+	644445444	metronomedown	D:\Unreal\Files\PunkRock\PunkRock_WwiseProject\.cache\BA\{BAE39670-3F5A-3599-D18E-37FDF70C38C4}.wem		\Interactive Music Hierarchy\Default Work Unit\LoopMetronome_120bpm\metronome\metronomedown		133744
+	705479134	metronomeup	D:\Unreal\Files\PunkRock\PunkRock_WwiseProject\.cache\41\{4109D4F0-8C20-99D6-5B73-F55164FC297A}.wem		\Interactive Music Hierarchy\Default Work Unit\LoopMetronome_120bpm\metronome\metronomeup		106172
+	1001026619	drum_kick	D:\Unreal\Files\PunkRock\PunkRock_WwiseProject\.cache\74\{74FD7676-DA78-275A-C4FD-9750207C951A}.wem		\Interactive Music Hierarchy\Default Work Unit\LoopMetronome_120bpm\metronome\drum_kick		26246
+

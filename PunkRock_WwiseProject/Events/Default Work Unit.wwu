@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{37A17A8E-89F9-4A33-A6EF-B4D57F4AF11B}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{37A17A8E-89F9-4A33-A6EF-B4D57F4AF11B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Metronome" ID="{FE12C5FC-4CE0-40FF-97C0-42176D1D9736}">
+					<ChildrenList>
+						<Action Name="" ID="{C3A21D04-CBDB-4691-AA23-15E273F9695B}" ShortID="822192076">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LoopMetronome_120bpm" ID="{EB52CCF9-835D-428D-85C9-35DF16251EC2}" WorkUnitID="{18C1F03E-D0ED-435A-B723-38E4D94998A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BGM_TheRush" ID="{C55170BD-4AE4-48F1-994E-A1B36BA7E716}">
+					<ChildrenList>
+						<Action Name="" ID="{70751B99-D14E-4587-80EA-9D57E8ED3A35}" ShortID="566365335">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TheRush_loop" ID="{CF892FDA-D05F-4005-A7AE-A6346B61A92F}" WorkUnitID="{18C1F03E-D0ED-435A-B723-38E4D94998A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

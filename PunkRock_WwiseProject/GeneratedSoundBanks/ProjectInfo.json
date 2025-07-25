@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "PunkRock_WwiseProject",
+   "GUID": "{18CCDFE6-5B2B-41D7-8E80-1D4606F72265}",
+   "Generator": "2024.1.6.8842"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{7D01F3FB-17A4-45ED-A6FB-10938A6078C7}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{C3BB07F7-4A55-4AB9-A5AC-A445C88EBC81}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{8815898B-0BD2-4BF0-937B-4F3AD0F0B7BC}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{4A6DB75D-142A-8B1C-A178-0DC8570C29A7}"
+ }
+}

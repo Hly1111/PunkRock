@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{79377B43-F880-41C6-9743-6591A3C9F988}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{79377B43-F880-41C6-9743-6591A3C9F988}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="TestSoundBank" ID="{F33FA177-2CFA-40A2-9B45-0A4740312C93}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Metronome" ID="{FE12C5FC-4CE0-40FF-97C0-42176D1D9736}" WorkUnitID="{37A17A8E-89F9-4A33-A6EF-B4D57F4AF11B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BGM_TheRush" ID="{C55170BD-4AE4-48F1-994E-A1B36BA7E716}" WorkUnitID="{37A17A8E-89F9-4A33-A6EF-B4D57F4AF11B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
